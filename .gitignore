@@ -1,0 +1,30 @@
+# Environment / secrets
+.env
+*.env
+.env.local
+application-local.properties
+
+# Build output
+target/
+**/target/
+.next/
+node_modules/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.class
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Database files
+backend/data/
+*.mv.db
+*.trace.db
