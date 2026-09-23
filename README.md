@@ -169,10 +169,28 @@ CLOSED → (terminal state)
 - API base URL is configured via `NEXT_PUBLIC_API_BASE_URL` in `.env.local`
 - Default: `http://localhost:8080`
 
+## Development Methodology
+
+This project was built using **Spec-Driven Development** with **Kiro AI**. All development decisions, prompts, and specifications are fully documented.
+
+📖 **Want to understand how this was built?** See [DEVELOPMENT.md](DEVELOPMENT.md)
+
+### Documentation
+- **[DEVELOPMENT.md](DEVELOPMENT.md)** - Overview of development approach and methodology
+- **[docs/spec-driven-development.md](docs/spec-driven-development.md)** - Complete workflow guide
+- **[docs/prompt-history.md](docs/prompt-history.md)** - How this project was built (all prompts documented)
+- **[.kiro/specs/](.kiro/specs/)** - Feature specifications (requirements, design, tasks)
+- **[.specstory/history/](.specstory/history/)** - Individual AI interaction records
+
 ## License
 
 This project is open source and available for educational purposes.
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please follow the spec-driven development workflow:
+1. Create a spec in `.kiro/specs/{feature-name}/` (requirements → design → tasks)
+2. Document your AI prompts in `.specstory/history/`
+3. Submit a Pull Request with complete specification
+
+See [DEVELOPMENT.md](DEVELOPMENT.md) for detailed guidelines.
