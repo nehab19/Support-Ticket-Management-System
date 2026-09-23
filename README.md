@@ -2,6 +2,8 @@
 
 A full-stack support ticket management system built with Spring Boot 3, Java 21, and Next.js.
 
+Ticket creation, listing, updates, comments, search, filtering, and status transitions are working as expected. Backend validation, data persistence, error handling, and integration tests are also verified, with no secrets committed.
+
 ## Features
 
 - **Ticket Management**: Create, view, update, and manage support tickets
